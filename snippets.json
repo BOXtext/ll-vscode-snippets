@@ -1,0 +1,26 @@
+{
+	"ll-table": {
+		"prefix": "zetfc",
+		"body": [
+			"import React from 'react';", "",  "const ${1:App} = props => {", "  return (", "    <div>", "      ${0}", "    </div>", "  );", "}", "", "", "export default ${1:App};"
+		],
+		"description": "Code snippet for react function component"
+	},
+	"dva-model": {
+		"prefix": "dva-model",
+		"body": [
+			"import initStore from '@snx/store/xx';",
+			"import { xx } from '@snx/utils/NamespaceConstant';",
+			"import { ACTION_NAMES, actionHelper } from '@snx/actions/xx';",
+			"export default {",
+			"namespace: xx,",
+			"state: initStore,",
+			"subscriptions: {}",
+			"reducers: {",
+			"[ACTION_NAMES.setState](state, { payload }) { return { ...state, ...payload }; },",
+			"effects: {},",
+			"};"
+		],
+		"description": "dva-model snippets code"
+	}
+}
